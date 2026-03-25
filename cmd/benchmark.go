@@ -63,7 +63,7 @@ func (benchmark *Benchmark) runCli() error {
 	fmt.Println("\n" + "\033[36m" + strings.Repeat("=", 80) + "\033[0m")
 
 	// Save results to Markdown
-	utils.SaveResultsToMD(results, benchmark.ModelName, benchmark.InputTokens, benchmark.MaxTokens, latency)
+	// utils.SaveResultsToMD(results, benchmark.ModelName, benchmark.InputTokens, benchmark.MaxTokens, latency)
 
 	return nil
 }
