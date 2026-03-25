@@ -4,3 +4,6 @@
 ## build
 llmapibenchmark_linux_amd64
 llmapibenchmark_windows_amd64.exe
+
+## local
+benchmark.sh
